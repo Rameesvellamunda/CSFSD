@@ -1,0 +1,112 @@
+
+body{
+
+    margin:cover;
+    background-size:cover;
+    
+}
+header
+{
+    
+    background-color:black;
+    height:2%;
+}
+img{
+    margin-left:10%;
+    margin-top: 8px;
+}
+.header{
+    float: right;
+    margin-top:20px;
+}
+.header a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:antiquewhite;
+    padding: 8px;
+    border: 1px white solid;
+    margin-right: 8px;
+}
+.header a:hover{
+    color: green;
+    background-color: yellow;
+    transition: 0.5s ease-in-out;
+}
+.side-bar{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(237, 233, 241);
+padding: 100px;
+
+}
+.side-bar li{
+    list-style:square;
+    margin-bottom: 5px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    margin-top: 40%;
+    
+    
+}
+footer h4{
+    text-align: center;
+    
+    
+}
+/* form */
+.login{
+    float: right;
+    border:1px red solid;
+    background-color: white;
+    height: 18em;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 30px;
+}
+.login h2{
+
+    text-align: center;
+}
+.login input {
+    height: 1.5em;
+}
+#submit{
+    width: 150px;
+    color: black;
+    background-color:blue;
+}
+.needpassword a
+{
+    text-decoration:none;
+}
+.container
+{
+    /* border: 1px white solid; */
+    margin-top: 7%;
+    margin-left: 2%;
+    
+}
+.p-box{
+    border: 1px red solid;
+    width: 23%;
+    float: left;
+    margin-left: 10px;
+    height: 9em;
+    padding: 2px;
+    background-color: aquamarine;
+}
+.p-box h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.p-box p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+     sans-serif;
+     text-align: justify;
+}
+.p-box a{
+    text-decoration: none;
+}
